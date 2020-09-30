@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://dev-vibes.com`,
     description: `A collections of better web development`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to Dev Vibes. News, articles, tips for WEB developers`,
       maxWidth: 652,
     },
     social: [
