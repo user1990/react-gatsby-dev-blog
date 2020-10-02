@@ -62,5 +62,13 @@ module.exports = {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {},
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
   ],
 };
