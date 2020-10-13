@@ -2,6 +2,8 @@
 title: Boost your VS Code productivity to another level
 author: Paulius Rimgaila
 date: 2020-09-29
+category: 'productivity'
+draft: false
 hero: ./images/hero.jpg
 excerpt: No typical and overused examples!! There are some more rare and less heard collection of extensions ant tips for WEB developers, that drastically improves productivity
 ---

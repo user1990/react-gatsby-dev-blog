@@ -2,6 +2,8 @@
 title: Handy JavaScript shorthand techniques
 author: Paulius Rimgaila
 date: 2020-09-29
+category: 'JavaScript'
+draft: false
 hero: ./images/hero.jpeg
 excerpt: Techniques, shorthands, new features, tips and tricks to simplify and optimize JS development
 ---I have written this guide to shorthand JavaScript coding techniques that I have picked up over the years. I think will be handy for developers. To help you understand what is going on, I have included the longhand versions to give some coding perspective.
