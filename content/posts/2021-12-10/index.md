@@ -10,25 +10,11 @@ excerpt: Collection of useful resources for better WEB
 
 ### General
 1. [World biggest storehouse of developer cheatsheets](https://codehouse.vercel.app/)
-2. [30 seconds of code snippets](https://www.30secondsofcode.org/)
-3. [The awards of design, creativity and innovation on the internet](https://www.awwwards.com/)
-4. [Free for developers](https://free-for.dev/#/)
-5. [Tips collected from Pragmatic Programmer](https://gist.github.com/jonnyjava/e35de4d7f1b260dd9c46009561a89d74)
-6. [CSS Wand](https://www.csswand.dev/)
-7. [How to review pull requests more quickly: practical tips](https://isamatov.com/review-pull-requests-faster/)
-8. [A Guide To CSS Debugging](https://www.smashingmagazine.com/2021/10/guide-debugging-css/)
 
 ### React
 
 1. [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example/)
-2. [5 Advanced React Patterns](https://javascript.plainenglish.io/5-advanced-react-patterns-a6b7624267a6)
-3. [Essential React custom hooks ](https://github.com/imbhargav5/rooks)
-4. [Beautiful React hooks](https://github.com/antonioru/beautiful-react-hooks)
-5. [React polymorphic components with TypeScript](https://isamatov.com/polymorphic-components-react-typescript/)
-6. [React philosophies](https://github.com/mithi/react-philosophies)
-7. [Levelup React skills](https://devtrium.com/)
-8. [Rewriting React Docs](https://beta.reactjs.org/)
-
+2. [React philosophies](https://github.com/mithi/react-philosophies)
 
 ### Next.js
 
@@ -58,35 +44,58 @@ excerpt: Collection of useful resources for better WEB
    // align-items: center;
    // justify-items: center;
    - place-items: center center;
+   // position: absolute;
+   // op: 0;
+   // left: 0;
+   // bottom: 0;
+   // right: 0;
+   - inset: 0; /* top right bottom left */
    ```
-2. Avoid absolute positioning, use CSS grid instead
-```css
-.container {
-  position: relative;
-  display: grid;
-}
+2. Avoid absolute positioning, use CSS grid instead.
+    ```css
+    .container {
+      position: relative;
+      display: grid;
+    }
 
-.thumb,
-.image {
-  grid-area: 1/2; /* grid-row: 1/2; grid-column: 1/2; */
-}
+    .thumb,
+    .image {
+      grid-area: 1/2; /* grid-row: 1/2; grid-column: 1/2; */
+    }
 
-.image {
-  margin: 10px 20px 0 15px;
-}
-```
+    .image {
+      margin: 10px 20px 0 15px;
+    }
+    ```
 3. Use absolute imports instead relative.
-```js
-import styles from '@/styles/Home.module.css';
-or
-import styles from 'styles/Home.module.css';
-```
+  ```js
+  import styles from '@/styles/Home.module.css';
+  or
+  import styles from 'styles/Home.module.css';
+  ```
 4. Use console.log custom snippet, for faster & clearer debugging. 
-```js
-console.log('%cVARIABLE_NAME', 'color: green; font-size: 1.5rem;', VARIABLE_NAME);
-```
+  ```js
+  console.log('%cVARIABLE_NAME', 'color: green; font-size: 1.5rem;', VARIABLE_NAME);
+  ```
 5. Type `.` in any Github repo root to open source directly in VS code WEB. Also `https://vscode.dev/`
 6. Automate sort inports. 
- 
+7. CSS units usage:
+  - rem for font-size. Avoids the scaling problems, maximum of accessibility, everything grows proportionally.
+  - px/% for padding, margin, border.
+8. Quickly hide 
+```js
+<p hidden>This paragraph is not visible on the page, it is hidden from the HTML.</p> 
+```
+9.   
+```js
+// Before
+div {
   
+}
+// After
+div {
+  position: absolute;
+  inset: 0;
+}
+```
 
