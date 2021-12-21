@@ -10,15 +10,9 @@ excerpt: Collection of useful resources for better WEB
 
 ### General
 1. [World biggest storehouse of developer cheatsheets](https://codehouse.vercel.app/)
-
-### React
-
-1. [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example/)
-2. [React philosophies](https://github.com/mithi/react-philosophies)
-
-### Next.js
-
-1. [Reduce page size by 3.5x & get 98 Lighthouse score](https://papyrus.so/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
+2. [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example/)
+3. [React philosophies](https://github.com/mithi/react-philosophies)
+4. [Reduce page size by 3.5x & get 98 Lighthouse score](https://papyrus.so/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
 
 
 ### Useful Tips 
@@ -78,24 +72,11 @@ excerpt: Collection of useful resources for better WEB
   console.log('%cVARIABLE_NAME', 'color: green; font-size: 1.5rem;', VARIABLE_NAME);
   ```
 5. Type `.` in any Github repo root to open source directly in VS code WEB. Also `https://vscode.dev/`
-6. Automate sort inports. 
+6. Automate sort inports. [eslint-plugin-sort-import](https://www.npmjs.com/package/eslint-plugin-sort-import)
 7. CSS units usage:
   - rem for font-size. Avoids the scaling problems, maximum of accessibility, everything grows proportionally.
   - px/% for padding, margin, border.
-8. Quickly hide 
+8. Quickly hide html element
 ```js
 <p hidden>This paragraph is not visible on the page, it is hidden from the HTML.</p> 
 ```
-9.   
-```js
-// Before
-div {
-  
-}
-// After
-div {
-  position: absolute;
-  inset: 0;
-}
-```
-
