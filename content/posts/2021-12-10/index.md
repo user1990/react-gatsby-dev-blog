@@ -15,7 +15,7 @@ excerpt: Collection of useful resources for better WEB
 4. [Reduce page size by 3.5x & get 98 Lighthouse score](https://papyrus.so/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
 
 
-### Useful Tips 
+### Useful Tips for discussion
 
 1. CSS shorthands.
    ```js
@@ -39,7 +39,7 @@ excerpt: Collection of useful resources for better WEB
    // justify-items: center;
    - place-items: center center;
    // position: absolute;
-   // op: 0;
+   // top: 0;
    // left: 0;
    // bottom: 0;
    // right: 0;
@@ -71,7 +71,7 @@ excerpt: Collection of useful resources for better WEB
   ```js
   console.log('%cVARIABLE_NAME', 'color: green; font-size: 1.5rem;', VARIABLE_NAME);
   ```
-5. Type `.` in any Github repo root to open source directly in VS code WEB. Also `https://vscode.dev/`
+5. Type `.` in any Github repo root to open source directly in VS code WEB or go to [vscode.dev](https://vscode.dev/)
 6. Automate sort inports. [eslint-plugin-sort-import](https://www.npmjs.com/package/eslint-plugin-sort-import)
 7. CSS units usage:
   - rem for font-size. Avoids the scaling problems, maximum of accessibility, everything grows proportionally.
