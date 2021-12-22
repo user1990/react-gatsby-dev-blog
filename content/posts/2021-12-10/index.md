@@ -12,6 +12,7 @@ excerpt: Collection of useful resources for better WEB
 2. [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example/)
 3. [React philosophies](https://github.com/mithi/react-philosophies)
 4. [Reduce page size by 3.5x & get 98 Lighthouse score](https://papyrus.so/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
+5. [kentcdodds](https://kentcdodds.com/blog)
 
 ### Useful Tips for discussion
 
