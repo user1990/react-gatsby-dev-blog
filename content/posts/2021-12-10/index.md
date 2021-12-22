@@ -13,6 +13,7 @@ excerpt: Collection of useful resources for better WEB
 3. [React philosophies](https://github.com/mithi/react-philosophies)
 4. [Reduce page size by 3.5x & get 98 Lighthouse score](https://papyrus.so/@PapyrusBlog/how-we-reduced-next.js-page-size-by-3.5x-and-achieved-a-98-lighthouse-score)
 5. [kentcdodds](https://kentcdodds.com/blog)
+6. [Zustand](https://github.com/pmndrs/zustand)
 
 ### Useful Tips for discussion
 
